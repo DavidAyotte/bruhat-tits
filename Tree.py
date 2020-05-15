@@ -56,6 +56,9 @@ def BT_tree(N,deep=3, Xmax=1000, Ymax=1000, radius=50, div=2, colors=0, backgrou
 		draw.line([(x0,y0), (x1, y1)], color, width)
 		Tree(draw, [(x0,y0),(x1,y1)], radius, N, div, deep-1, colors, width)
 	im.save(outputname + '.png', 'PNG')
+	
+#todo : add doc
+#todo : change angle between branchs
 		
 #tests
 BT_tree(3,6,outputname='N3D6div2')
@@ -64,7 +67,7 @@ BT_tree(3,6, radius=200, div=1.6, width=5,outputname='N3D6rad200div1.6W5')
 BT_tree(5,3,Xmax=1500, Ymax=1500, radius=100, div=3, outputname='N5D3div3')
 BT_tree(5,5,Xmax=1500, Ymax=1500, radius=100, div=3, outputname='N5D5div3')
 
-BT_tree(4,10)
+BT_tree(7, 3)
 
 #tests colors
 col = [34, 55, 75, 134, 155, 201, 210]
