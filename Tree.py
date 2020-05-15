@@ -26,7 +26,7 @@ def Tree(draw, base_points, radius, N, div, deep, colors, width):
 	if type(colors) is int or type(colors) is tuple:
 		color = colors
 	if type(colors) is list:
-		color = colors[(deep)%(len(colors)-1)]
+		color = colors[(deep)%(len(colors))]
 	x0,y0 = base_points[0][0], base_points[0][1]
 	x1,y1 = base_points[1][0], base_points[1][1]
 	angle = angle_rel((x0, y0), (x1, y1))
@@ -71,6 +71,5 @@ BT_tree(3,7, radius=200, div=1.6, colors=(255, 0, 0), width=5,outputname='N3D7co
 
 rainbow = [ (255,0,0), (255,128,0), (255,255,0), (0,255,0), (0,255,255), (0,0,255), (127,0,255) ]
 BT_tree(3,7,radius=200, div=1.6, colors=rainbow, width=5,outputname='N3D7rainbow')
-BT_tree(3,15,radius=200, div=1.6, colors=rainbow, width=5,outputname='HyperRainbow')
 BT_tree(3,7,radius=200, div=1.6, colors=rainbow, background=(192,192,192), width=5,outputname='HyperRainbow')
 
