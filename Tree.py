@@ -64,6 +64,8 @@ BT_tree(3,6, radius=200, div=1.6, width=5,outputname='N3D6rad200div1.6W5')
 BT_tree(5,3,Xmax=1500, Ymax=1500, radius=100, div=3, outputname='N5D3div3')
 BT_tree(5,5,Xmax=1500, Ymax=1500, radius=100, div=3, outputname='N5D5div3')
 
+BT_tree(4,10)
+
 #tests colors
 col = [34, 55, 75, 134, 155, 201, 210]
 BT_tree(3,7, radius=200, div=1.6, colors=col, width=5,outputname='N3D7colors.6W5')
