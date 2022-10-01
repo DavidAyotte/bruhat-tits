@@ -1,12 +1,10 @@
 # Bruhat-Tits
-Bruhat-Tits tree plotter
+Bruhat-Tits tree plotter (see [wiki](https://en.wikipedia.org/wiki/Building_(mathematics))).
 
 ## Functions
 
-angle_rel
+* angle_rel
+* Tree
+* BT_Tree
 
-Tree
-
-BT_Tree
-
-TODO : add doc
+TODO: add documentation
