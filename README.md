@@ -3,6 +3,6 @@ Bruhat-Tits tree plotter (see [wikipedia](https://en.wikipedia.org/wiki/Building
 
 ## Functions
 
-* angle_rel: utility function to compute the angle between tree branches;
-* Tree: draw using PIL the branches of the tree (uses recursion);
-* BT_Tree: first draw the base of the tree and then use the `Tree` function to complete the Bruhat-Tits tree.
+* `angle_rel`: utility function to compute the angle between tree branches;
+* `Tree`: draw using PIL the branches of the tree (uses recursion);
+* `BT_Tree`: first draw the base of the tree and then use the `Tree` function to complete the Bruhat-Tits tree.
